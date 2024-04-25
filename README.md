@@ -21,7 +21,7 @@ Welcome to the dbt project designed to address the [Marketing Common Data Modell
 4. Developed a dbt model that consolidates all fields from each media data source into a unified structure, guided by the provided ad performance table structure.
 
 ***DBT Model Dependency Tree*** 
-![DBT Model Dependency Tree](Screenshots/dbt_model_dependancy_tree.png)
+![DBT Model Dependency Tree](screenshots/dbt_model_dependancy_tree.png)
 
 **Key Data Columns Required:**
 - **Impressions:** Available across all media data tables.
