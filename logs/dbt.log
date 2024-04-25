@@ -1,0 +1,410 @@
+[0m05:03:39.184739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122bd090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122d4e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122d5710>]}
+
+
+============================== 05:03:39.187285 | 6dc4ab1f-aeb5-4187-aed1-9a0a66972f37 ==============================
+[0m05:03:39.187285 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:03:39.187608 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m05:03:39.187869 [info ] [MainThread]: Creating dbt configuration folder at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt
+[0m05:03:46.848807 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/dbt/include/starter_project
+[0m05:03:46.859952 [info ] [MainThread]: 
+Your new dbt project "dbt_mcdm_challenge" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m05:03:46.860783 [info ] [MainThread]: Setting up your profile.
+[0m05:04:07.571728 [info ] [MainThread]: Profile dbt_mcdm_challenge written to /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m05:04:07.576253 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 28.400938, "process_user_time": 2.820055, "process_kernel_time": 0.532926, "process_mem_max_rss": "184975360", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:04:07.577295 [debug] [MainThread]: Command `dbt init` succeeded at 05:04:07.577105 after 28.40 seconds
+[0m05:04:07.577856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1122c80d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107978450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f6dd90>]}
+[0m05:04:07.578412 [debug] [MainThread]: Flushing usage events
+[0m05:04:16.054743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084466d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108fa9710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108fa9cd0>]}
+
+
+============================== 05:04:16.057172 | 8021a58d-01c2-4afe-befb-4b5cba6278d7 ==============================
+[0m05:04:16.057172 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:04:16.057475 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m05:04:16.057839 [info ] [MainThread]: dbt version: 1.7.13
+[0m05:04:16.058004 [info ] [MainThread]: python version: 3.11.4
+[0m05:04:16.058158 [info ] [MainThread]: python path: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+[0m05:04:16.058297 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m05:04:16.498321 [info ] [MainThread]: Using profiles dir at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt
+[0m05:04:16.498599 [info ] [MainThread]: Using profiles.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt/profiles.yml
+[0m05:04:16.498777 [info ] [MainThread]: Using dbt_project.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml
+[0m05:04:16.499054 [info ] [MainThread]: adapter type: bigquery
+[0m05:04:16.499233 [info ] [MainThread]: adapter version: 1.7.7
+[0m05:04:16.499384 [info ] [MainThread]: Configuration:
+[0m05:04:16.499525 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m05:04:16.499650 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m05:04:16.499778 [info ] [MainThread]: Required dependencies:
+[0m05:04:16.499934 [debug] [MainThread]: Executing "git --help"
+[0m05:04:16.511917 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:04:16.512389 [debug] [MainThread]: STDERR: "b''"
+[0m05:04:16.512568 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m05:04:16.512724 [info ] [MainThread]: Connection:
+[0m05:04:16.512917 [info ] [MainThread]:   method: service-account
+[0m05:04:16.513055 [info ] [MainThread]:   database: mcdm-challenge-421314
+[0m05:04:16.513181 [info ] [MainThread]:   execution_project: mcdm-challenge-421314
+[0m05:04:16.513305 [info ] [MainThread]:   schema: dbt_inter
+[0m05:04:16.513426 [info ] [MainThread]:   location: US
+[0m05:04:16.513544 [info ] [MainThread]:   priority: interactive
+[0m05:04:16.513665 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m05:04:16.513785 [info ] [MainThread]:   impersonate_service_account: None
+[0m05:04:16.513908 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m05:04:16.514029 [info ] [MainThread]:   job_retries: 1
+[0m05:04:16.514148 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m05:04:16.514267 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m05:04:16.514387 [info ] [MainThread]:   timeout_seconds: 300
+[0m05:04:16.514508 [info ] [MainThread]:   client_id: None
+[0m05:04:16.514624 [info ] [MainThread]:   token_uri: None
+[0m05:04:16.514740 [info ] [MainThread]:   dataproc_region: None
+[0m05:04:16.514858 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m05:04:16.514972 [info ] [MainThread]:   gcs_bucket: None
+[0m05:04:16.515086 [info ] [MainThread]:   dataproc_batch: None
+[0m05:04:16.515297 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m05:04:16.536884 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m05:04:16.537482 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:04:16.537772 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: '/GC_creds/mcdm-challenge-421314-ffcbc5cba61b.json''
+[0m05:04:16.538049 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m05:04:16.538227 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m05:04:16.538437 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml> not found
+
+[0m05:04:16.538635 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  [Errno 2] No such file or directory: '/GC_creds/mcdm-challenge-421314-ffcbc5cba61b.json'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m05:04:16.539722 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.50912493, "process_user_time": 2.2866, "process_kernel_time": 0.418745, "process_mem_max_rss": "185843712", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:04:16.540063 [debug] [MainThread]: Command `dbt debug` failed at 05:04:16.539990 after 0.51 seconds
+[0m05:04:16.540261 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m05:04:16.540460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f483d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108fab9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108fa9e90>]}
+[0m05:04:16.540691 [debug] [MainThread]: Flushing usage events
+[0m05:06:41.259964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1090b0dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10910da10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10910dfd0>]}
+
+
+============================== 05:06:41.262406 | 51cabbbf-5bb3-4307-afbb-c9ab2297a1aa ==============================
+[0m05:06:41.262406 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:06:41.262700 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m05:06:41.263032 [info ] [MainThread]: dbt version: 1.7.13
+[0m05:06:41.263196 [info ] [MainThread]: python version: 3.11.4
+[0m05:06:41.263347 [info ] [MainThread]: python path: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+[0m05:06:41.263488 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m05:06:41.745900 [info ] [MainThread]: Using profiles dir at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt
+[0m05:06:41.746165 [info ] [MainThread]: Using profiles.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt/profiles.yml
+[0m05:06:41.746329 [info ] [MainThread]: Using dbt_project.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml
+[0m05:06:41.746596 [info ] [MainThread]: adapter type: bigquery
+[0m05:06:41.746782 [info ] [MainThread]: adapter version: 1.7.7
+[0m05:06:41.746939 [info ] [MainThread]: Configuration:
+[0m05:06:41.747086 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m05:06:41.747226 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m05:06:41.747360 [info ] [MainThread]: Required dependencies:
+[0m05:06:41.747526 [debug] [MainThread]: Executing "git --help"
+[0m05:06:41.756846 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:06:41.757274 [debug] [MainThread]: STDERR: "b''"
+[0m05:06:41.757463 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m05:06:41.757630 [info ] [MainThread]: Connection:
+[0m05:06:41.757847 [info ] [MainThread]:   method: service-account
+[0m05:06:41.757987 [info ] [MainThread]:   database: mcdm-challenge-421314
+[0m05:06:41.758124 [info ] [MainThread]:   execution_project: mcdm-challenge-421314
+[0m05:06:41.758258 [info ] [MainThread]:   schema: dbt_inter
+[0m05:06:41.758388 [info ] [MainThread]:   location: US
+[0m05:06:41.758518 [info ] [MainThread]:   priority: interactive
+[0m05:06:41.758652 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m05:06:41.758783 [info ] [MainThread]:   impersonate_service_account: None
+[0m05:06:41.758915 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m05:06:41.759044 [info ] [MainThread]:   job_retries: 1
+[0m05:06:41.759174 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m05:06:41.759304 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m05:06:41.759432 [info ] [MainThread]:   timeout_seconds: 300
+[0m05:06:41.759563 [info ] [MainThread]:   client_id: None
+[0m05:06:41.759690 [info ] [MainThread]:   token_uri: None
+[0m05:06:41.759816 [info ] [MainThread]:   dataproc_region: None
+[0m05:06:41.759944 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m05:06:41.760070 [info ] [MainThread]:   gcs_bucket: None
+[0m05:06:41.760197 [info ] [MainThread]:   dataproc_batch: None
+[0m05:06:41.760429 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m05:06:41.763688 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m05:06:41.764189 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:06:41.764466 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: '../GC_creds/mcdm-challenge-421314-ffcbc5cba61b.json''
+[0m05:06:41.764711 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m05:06:41.764895 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m05:06:41.765031 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml> not found
+
+[0m05:06:41.765177 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  [Errno 2] No such file or directory: '../GC_creds/mcdm-challenge-421314-ffcbc5cba61b.json'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m05:06:41.766396 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.5292807, "process_user_time": 2.687501, "process_kernel_time": 0.184292, "process_mem_max_rss": "186040320", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:06:41.766693 [debug] [MainThread]: Command `dbt debug` failed at 05:06:41.766634 after 0.53 seconds
+[0m05:06:41.766879 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m05:06:41.767067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1090ac190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10910d8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10910fc50>]}
+[0m05:06:41.767286 [debug] [MainThread]: Flushing usage events
+[0m05:06:55.262556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108982d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089edd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089ee2d0>]}
+
+
+============================== 05:06:55.264389 | 00c1b445-bd4a-4c45-ab97-0845127f10e0 ==============================
+[0m05:06:55.264389 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:06:55.264695 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m05:06:55.264977 [info ] [MainThread]: dbt version: 1.7.13
+[0m05:06:55.265153 [info ] [MainThread]: python version: 3.11.4
+[0m05:06:55.265360 [info ] [MainThread]: python path: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+[0m05:06:55.265569 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m05:06:55.669909 [info ] [MainThread]: Using profiles dir at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt
+[0m05:06:55.670207 [info ] [MainThread]: Using profiles.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt/profiles.yml
+[0m05:06:55.670374 [info ] [MainThread]: Using dbt_project.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml
+[0m05:06:55.670602 [info ] [MainThread]: adapter type: bigquery
+[0m05:06:55.670752 [info ] [MainThread]: adapter version: 1.7.7
+[0m05:06:55.670897 [info ] [MainThread]: Configuration:
+[0m05:06:55.671036 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m05:06:55.671172 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m05:06:55.671309 [info ] [MainThread]: Required dependencies:
+[0m05:06:55.671478 [debug] [MainThread]: Executing "git --help"
+[0m05:06:55.680433 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:06:55.680866 [debug] [MainThread]: STDERR: "b''"
+[0m05:06:55.681055 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m05:06:55.681225 [info ] [MainThread]: Connection:
+[0m05:06:55.681415 [info ] [MainThread]:   method: service-account
+[0m05:06:55.681560 [info ] [MainThread]:   database: mcdm-challenge-421314
+[0m05:06:55.681698 [info ] [MainThread]:   execution_project: mcdm-challenge-421314
+[0m05:06:55.681831 [info ] [MainThread]:   schema: dbt_inter
+[0m05:06:55.681964 [info ] [MainThread]:   location: US
+[0m05:06:55.682100 [info ] [MainThread]:   priority: interactive
+[0m05:06:55.682248 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m05:06:55.682508 [info ] [MainThread]:   impersonate_service_account: None
+[0m05:06:55.682726 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m05:06:55.682917 [info ] [MainThread]:   job_retries: 1
+[0m05:06:55.683117 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m05:06:55.683261 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m05:06:55.683394 [info ] [MainThread]:   timeout_seconds: 300
+[0m05:06:55.683525 [info ] [MainThread]:   client_id: None
+[0m05:06:55.683652 [info ] [MainThread]:   token_uri: None
+[0m05:06:55.683774 [info ] [MainThread]:   dataproc_region: None
+[0m05:06:55.683897 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m05:06:55.684016 [info ] [MainThread]:   gcs_bucket: None
+[0m05:06:55.684135 [info ] [MainThread]:   dataproc_batch: None
+[0m05:06:55.684354 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m05:06:55.688552 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m05:06:55.689339 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:06:55.689652 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: 'GC_creds/mcdm-challenge-421314-ffcbc5cba61b.json''
+[0m05:06:55.689894 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m05:06:55.690071 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m05:06:55.690204 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml> not found
+
+[0m05:06:55.690346 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  [Errno 2] No such file or directory: 'GC_creds/mcdm-challenge-421314-ffcbc5cba61b.json'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m05:06:55.691386 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.45081216, "process_user_time": 2.740502, "process_kernel_time": 0.125701, "process_mem_max_rss": "188186624", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:06:55.691680 [debug] [MainThread]: Command `dbt debug` failed at 05:06:55.691620 after 0.45 seconds
+[0m05:06:55.691888 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m05:06:55.692073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089eff50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898c2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea4cf90>]}
+[0m05:06:55.692279 [debug] [MainThread]: Flushing usage events
+[0m05:11:38.343477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107716350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077719d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107771f90>]}
+
+
+============================== 05:11:38.346008 | 68f222d6-5a60-442d-8bbd-5b8bc3f83229 ==============================
+[0m05:11:38.346008 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:11:38.346327 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m05:11:38.346638 [info ] [MainThread]: dbt version: 1.7.13
+[0m05:11:38.346802 [info ] [MainThread]: python version: 3.11.4
+[0m05:11:38.346953 [info ] [MainThread]: python path: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+[0m05:11:38.347091 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m05:11:39.026514 [info ] [MainThread]: Using profiles dir at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt
+[0m05:11:39.026800 [info ] [MainThread]: Using profiles.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt/profiles.yml
+[0m05:11:39.026968 [info ] [MainThread]: Using dbt_project.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml
+[0m05:11:39.027232 [info ] [MainThread]: adapter type: bigquery
+[0m05:11:39.027414 [info ] [MainThread]: adapter version: 1.7.7
+[0m05:11:39.027574 [info ] [MainThread]: Configuration:
+[0m05:11:39.027713 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m05:11:39.027852 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m05:11:39.027987 [info ] [MainThread]: Required dependencies:
+[0m05:11:39.028151 [debug] [MainThread]: Executing "git --help"
+[0m05:11:39.038482 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:11:39.038947 [debug] [MainThread]: STDERR: "b''"
+[0m05:11:39.039141 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m05:11:39.039306 [info ] [MainThread]: Connection:
+[0m05:11:39.039497 [info ] [MainThread]:   method: service-account
+[0m05:11:39.039637 [info ] [MainThread]:   database: mcdm-challenge-421314
+[0m05:11:39.039770 [info ] [MainThread]:   execution_project: mcdm-challenge-421314
+[0m05:11:39.039904 [info ] [MainThread]:   schema: dbt_inter
+[0m05:11:39.040034 [info ] [MainThread]:   location: US
+[0m05:11:39.040165 [info ] [MainThread]:   priority: interactive
+[0m05:11:39.040290 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m05:11:39.040411 [info ] [MainThread]:   impersonate_service_account: None
+[0m05:11:39.040530 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m05:11:39.040646 [info ] [MainThread]:   job_retries: 1
+[0m05:11:39.040768 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m05:11:39.040886 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m05:11:39.041005 [info ] [MainThread]:   timeout_seconds: 300
+[0m05:11:39.041123 [info ] [MainThread]:   client_id: None
+[0m05:11:39.041239 [info ] [MainThread]:   token_uri: None
+[0m05:11:39.041355 [info ] [MainThread]:   dataproc_region: None
+[0m05:11:39.041471 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m05:11:39.041586 [info ] [MainThread]:   gcs_bucket: None
+[0m05:11:39.041700 [info ] [MainThread]:   dataproc_batch: None
+[0m05:11:39.041912 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m05:11:39.047705 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m05:11:39.048281 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:11:39.048565 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: '[Errno 2] No such file or directory: '../GC_creds/mcdm-challenge-421314-75a48378b729.json''
+[0m05:11:39.048826 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m05:11:39.048996 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m05:11:39.049131 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml> not found
+
+[0m05:11:39.049274 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  [Errno 2] No such file or directory: '../GC_creds/mcdm-challenge-421314-75a48378b729.json'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m05:11:39.051234 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.73090607, "process_user_time": 2.89703, "process_kernel_time": 0.188236, "process_mem_max_rss": "185188352", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:11:39.051582 [debug] [MainThread]: Command `dbt debug` failed at 05:11:39.051516 after 0.73 seconds
+[0m05:11:39.051787 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m05:11:39.051988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107710510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107753a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102f48c50>]}
+[0m05:11:39.052266 [debug] [MainThread]: Flushing usage events
+[0m05:12:17.606358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079c6f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079b5050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a22210>]}
+
+
+============================== 05:12:17.608204 | 79c6655e-b5cc-47b1-8236-23a85d415c1f ==============================
+[0m05:12:17.608204 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:12:17.608506 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m05:12:17.608785 [info ] [MainThread]: dbt version: 1.7.13
+[0m05:12:17.608953 [info ] [MainThread]: python version: 3.11.4
+[0m05:12:17.609116 [info ] [MainThread]: python path: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+[0m05:12:17.609264 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m05:12:18.104462 [info ] [MainThread]: Using profiles dir at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt
+[0m05:12:18.104743 [info ] [MainThread]: Using profiles.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt/profiles.yml
+[0m05:12:18.104915 [info ] [MainThread]: Using dbt_project.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml
+[0m05:12:18.105349 [info ] [MainThread]: adapter type: bigquery
+[0m05:12:18.105536 [info ] [MainThread]: adapter version: 1.7.7
+[0m05:12:18.105697 [info ] [MainThread]: Configuration:
+[0m05:12:18.105838 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m05:12:18.105965 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m05:12:18.106089 [info ] [MainThread]: Required dependencies:
+[0m05:12:18.106241 [debug] [MainThread]: Executing "git --help"
+[0m05:12:18.116670 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:12:18.117168 [debug] [MainThread]: STDERR: "b''"
+[0m05:12:18.117373 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m05:12:18.117538 [info ] [MainThread]: Connection:
+[0m05:12:18.117725 [info ] [MainThread]:   method: service-account
+[0m05:12:18.117854 [info ] [MainThread]:   database: mcdm-challenge-421314
+[0m05:12:18.117979 [info ] [MainThread]:   execution_project: mcdm-challenge-421314
+[0m05:12:18.118100 [info ] [MainThread]:   schema: dbt_inter
+[0m05:12:18.118220 [info ] [MainThread]:   location: US
+[0m05:12:18.118337 [info ] [MainThread]:   priority: interactive
+[0m05:12:18.118456 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m05:12:18.118573 [info ] [MainThread]:   impersonate_service_account: None
+[0m05:12:18.118691 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m05:12:18.118810 [info ] [MainThread]:   job_retries: 1
+[0m05:12:18.118925 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m05:12:18.119043 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m05:12:18.119163 [info ] [MainThread]:   timeout_seconds: 300
+[0m05:12:18.119282 [info ] [MainThread]:   client_id: None
+[0m05:12:18.119398 [info ] [MainThread]:   token_uri: None
+[0m05:12:18.119514 [info ] [MainThread]:   dataproc_region: None
+[0m05:12:18.119630 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m05:12:18.119743 [info ] [MainThread]:   gcs_bucket: None
+[0m05:12:18.119858 [info ] [MainThread]:   dataproc_batch: None
+[0m05:12:18.120076 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m05:12:18.123994 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m05:12:18.124483 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m05:12:18.125947 [debug] [MainThread]: On debug: select 1 as id
+[0m05:12:19.164609 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=mcdm-challenge-421314&j=bq:US:8238d7da-e918-45b4-8ecc-eebca3347c35&page=queryresults
+[0m05:12:20.495801 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m05:12:20.496800 [info ] [MainThread]: [31m1 check failed:[0m
+[0m05:12:20.497233 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml> not found
+
+[0m05:12:20.502395 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 2.9175284, "process_user_time": 2.777831, "process_kernel_time": 0.160108, "process_mem_max_rss": "192102400", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:12:20.503258 [debug] [MainThread]: Command `dbt debug` failed at 05:12:20.503086 after 2.92 seconds
+[0m05:12:20.504052 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m05:12:20.504646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079c0290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f9c610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a0cad0>]}
+[0m05:12:20.505296 [debug] [MainThread]: Flushing usage events
+[0m05:12:45.891458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110184d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101ed850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101ede10>]}
+
+
+============================== 05:12:45.893270 | d04ad8ce-d5e5-4ccf-8786-e39e05ee639a ==============================
+[0m05:12:45.893270 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:12:45.893568 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/logs', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m05:12:45.893864 [info ] [MainThread]: dbt version: 1.7.13
+[0m05:12:45.894033 [info ] [MainThread]: python version: 3.11.4
+[0m05:12:45.894183 [info ] [MainThread]: python path: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+[0m05:12:45.894322 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m05:12:45.895790 [info ] [MainThread]: Using profiles dir at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt
+[0m05:12:45.895947 [info ] [MainThread]: Using profiles.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt/profiles.yml
+[0m05:12:45.896076 [info ] [MainThread]: Using dbt_project.yml file at /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/dbt_project.yml
+[0m05:12:45.925109 [info ] [MainThread]: Configuration:
+[0m05:12:45.925351 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m05:12:45.925513 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m05:12:45.925657 [info ] [MainThread]: Required dependencies:
+[0m05:12:45.925838 [debug] [MainThread]: Executing "git --help"
+[0m05:12:45.934611 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m05:12:45.935054 [debug] [MainThread]: STDERR: "b''"
+[0m05:12:45.935230 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m05:12:45.935393 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m05:12:45.935554 [info ] [MainThread]: [31m1 check failed:[0m
+[0m05:12:45.935694 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Could not find profile named 'default'
+
+
+[0m05:12:45.936471 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.0676185, "process_user_time": 0.778318, "process_kernel_time": 0.073113, "process_mem_max_rss": "106479616", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:12:45.936737 [debug] [MainThread]: Command `dbt debug` failed at 05:12:45.936681 after 0.07 seconds
+[0m05:12:45.936963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102570190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102570dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102570c50>]}
+[0m05:12:45.937164 [debug] [MainThread]: Flushing usage events
+[0m05:13:33.148481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057f1d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057e9090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105855950>]}
+
+
+============================== 05:13:33.150315 | 79f99d74-73f4-4431-835d-254e6912c6c4 ==============================
+[0m05:13:33.150315 [info ] [MainThread]: Running with dbt=1.7.13
+[0m05:13:33.150603 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m05:13:39.035161 [info ] [MainThread]: A project called dbt_mcdm_challenge already exists here.
+[0m05:13:39.038687 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 5.9115043, "process_user_time": 0.742407, "process_kernel_time": 0.068458, "process_mem_max_rss": "104333312", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m05:13:39.039593 [debug] [MainThread]: Command `dbt init` succeeded at 05:13:39.039410 after 5.91 seconds
+[0m05:13:39.040193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057f41d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100fe1dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1010ab350>]}
+[0m05:13:39.040777 [debug] [MainThread]: Flushing usage events
