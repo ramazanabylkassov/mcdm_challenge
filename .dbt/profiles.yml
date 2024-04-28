@@ -1,28 +1,13 @@
-# dbt_mcdm_challenge:
-#   outputs:
-#     dev:
-#       dataset: dbt_inter
-#       job_execution_timeout_seconds: 300
-#       job_retries: 1
-#       keyfile: /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/GC_creds/mcdm-challenge-421415-0a29c182193b.json
-#       location: US
-#       method: service-account
-#       priority: interactive
-#       project: mcdm-challenge-421415
-#       threads: 4
-#       type: bigquery
-#   target: dev
-dbt_mcdm_challenge_2:
+dbt_mcdm_challenge:
   outputs:
     dev:
       dataset: dbt_inter
       job_execution_timeout_seconds: 300
       job_retries: 1
-      keyfile: /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/GC_creds/mcdm-challenge-421415-0a29c182193b.json
-      location: US
+      keyfile: /Users/ramazanabylkassov/Desktop/IT/mcdm_challenge/GC_creds/mcdm-challenge-421415-4cf6642dd4ec.json
       method: service-account
       priority: interactive
       project: mcdm-challenge-421415
       threads: 4
       type: bigquery
-  target: dev
+  target: dev 
