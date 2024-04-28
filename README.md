@@ -1,6 +1,6 @@
 Welcome to the dbt project designed to address the [Marketing Common Data Modelling Challenge](https://github.com/kobzevvv/paid-ads-common-data-model-challenge/tree/main)!
 
-[View the final Looker dashboard here](https://lookerstudio.google.com/s/keV82Qj-Pvw).
+[View the final Looker dashboard here](https://lookerstudio.google.com/reporting/0b89134e-ba1b-425f-a9fe-d381d92ce814).
 
 **Challenge Overview:** The original models for an existing dashboard were lost. Your task is to rebuild the dbt models using the provided CSV files to recreate the exact same dashboard.  
   
