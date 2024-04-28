@@ -7,12 +7,12 @@ Welcome to the dbt project designed to address the [Marketing Common Data Modell
 ***Old Looker Dashboard*** 
 ![old looker dashboard](screenshots/old_looker_dashboard.png)
 
-**Provided Files** (located in the [seeds folder](seeds/)):
-- [Ad Performance Table Structure](seeds/mcdm_paid_ads_basic_performance_structure.csv)
-- [Bing Data](seeds/src_ads_bing_all_data.csv)
-- [Facebook Data](seeds/src_ads_creative_facebook_all_data.csv)
-- [TikTok Data](seeds/src_ads_tiktok_ads_all_data.csv)
-- [Twitter Data](seeds/src_promoted_tweets_twitter_all_data.csv)
+**Provided Files** (located in the [seeds folder](dbt_mcdm_challenge/seeds/)):
+- [Ad Performance Table Structure](dbt_mcdm_challenge/seeds/mcdm_paid_ads_basic_performance_structure.csv)
+- [Bing Data](dbt_mcdm_challenge/seeds/src_ads_bing_all_data.csv)
+- [Facebook Data](dbt_mcdm_challenge/seeds/src_ads_creative_facebook_all_data.csv)
+- [TikTok Data](dbt_mcdm_challenge/seeds/src_ads_tiktok_ads_all_data.csv)
+- [Twitter Data](dbt_mcdm_challenge/seeds/src_promoted_tweets_twitter_all_data.csv)
 
 **Solution Approach:**
 1. Initiated a Google Cloud Project.
